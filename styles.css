@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: linear-gradient(230deg, rgb(128, 0, 255), rgb(157, 176, 244), rgb(0, 0, 255));
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.852);
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.calculadora {
+    position: absolute;
+    height: 450px;
+    background: linear-gradient(rgb(0, 0, 73), rgb(42, 61, 233), rgb(114, 196, 255));
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border-top: 5px;
+    border-radius: 10px;
+    color: black;
+    transform: 0.5s;
+    margin: 3px;
+    border-color: #000000;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.button:hover {
+    background-color: rgb(255, 128, 0);
+    transform: scale(1.18);
+}
+
+#resultado {
+    width: 96%;
+    height: 40px;
+    margin: auto auto 5px auto;
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#text {
+    background: linear-gradient(0.3turn, #ff01fb, #04c5ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 5%;
+    font-size: 30px;
+    font-family: 'Tilt Prism', cursive;
+
+}
